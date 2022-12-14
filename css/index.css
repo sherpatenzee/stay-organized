@@ -1,0 +1,29 @@
+body{
+  background-image: url(/images/jess-bailey-5xjw079i6Q4-unsplash.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+#text{
+  background-color: rgba(0, 0, 0, 0.445);
+  color:white;
+  border-radius: 25px;
+  margin-top: 100px;
+
+
+}
+
+footer{
+  margin-top: 430px;
+  color:black;
+}
+
+header{
+  margin: auto;
+  color: black;
+  font-size: larger;
+  font-weight: 800;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(184, 160, 51, 0.237);
+}
