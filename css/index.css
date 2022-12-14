@@ -2,6 +2,7 @@ body{
   background-image: url(/images/jess-bailey-5xjw079i6Q4-unsplash.jpg);
   background-repeat:no-repeat;
   background-size:cover;
+  background-position-y: 90px;
   
 }
 
@@ -20,10 +21,16 @@ footer{
 }
 
 header{
-  margin: auto;
+  
   color: black;
   font-size: larger;
   font-weight: 800;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgba(184, 160, 51, 0.237);
+  background-color: rgba(0, 0, 0, 0.327);
+}
+
+#displayUser{
+  background-color: rgba(47, 46, 45, 0.361);
+  font-weight: 200;
+  font-style: italic;
 }
