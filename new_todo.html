@@ -45,7 +45,28 @@
 
   </header>
 
+<main class="container">
 
+  <select class="form-select text-center mt-5" id="userSelect"></select>
+  <select class="form-select text-center mt-5" id="categorySelect"></select>
+  <select class="form-select text-center mt-5" id="urgencySelect">
+    <option value="" >Please Select Priority</option>
+    <option value="Low" >Low</option>
+    <option value="Medium" >Medium</option>
+    <option value="Hard" >Hard</option>
+  </select>
+
+
+ <textarea class="description mt-5 " name="" id="description" cols="80" rows="5"></textarea><br>
+
+  <label for="text">Deadline :</label>
+  <input class="input mt-5" type="date" name="" id="inputField"> <br>
+<hr>
+  <button id="addBtn" class="btn btn-success mt-5 "> ADD Todo</button>
+
+  <p id="display"></p>
+
+</main>
 
   <footer>
     <footer class="py-3 my-4 fixed-bottom">

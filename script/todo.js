@@ -39,6 +39,7 @@ function populateUserDropdown() {
 
 
 function userDropdownOnChange() {
+  
 
   let display = document.getElementById("displayUser")
   let userSelect = document.getElementById("userSelect").value
@@ -52,6 +53,9 @@ function userDropdownOnChange() {
       for (let user of data) {
 
         if (userSelect == user.id) {
+
+        
+
           display.innerHTML = "<span style='color: Red ; '> Catergory: </span>" + user.category + "<br />" + "<span style='color: Red ; '> Description : </span>" + user.description + "<br />" + "<span style='color: Red ; '> Deadline : </span>" + user.deadline + "<br />" + "<span style='color: Red ; '> Priority : </span>" + user.priority + "<br />" + "<span style='color: Red ; '> Completed : </span>" + user.completed;
 
         }else if (userSelect == ""){
